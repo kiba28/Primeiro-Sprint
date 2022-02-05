@@ -47,6 +47,8 @@ public class Main {
 						} else {
 							System.out.println("Senha errada, tente novamente.");
 						}
+					} else {
+						System.out.println("O login digitado não existe. Tente novamente.");
 					}
 				}
 				break;
