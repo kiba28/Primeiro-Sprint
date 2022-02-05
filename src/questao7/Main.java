@@ -40,9 +40,8 @@ public class Main {
 				erros++;
 			}
 		}
-		System.out.println(
-				"Olá " + nome + ". \nVocê acertou: " + acertos + "\nE errou: " + erros);
-		
+		System.out.println("Olá " + nome + ". \nVocê acertou: " + acertos + "\nE errou: " + erros);
+
 		scan.close();
 	}
 

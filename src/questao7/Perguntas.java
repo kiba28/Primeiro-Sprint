@@ -1,9 +1,9 @@
 package questao7;
 
 public class Perguntas {
-	String pergunta;
-	String resposta;
-	
+	private String pergunta;
+	private String resposta;
+
 	public Perguntas(String pergunta, String resposta) {
 		this.pergunta = pergunta;
 		this.resposta = resposta;
@@ -24,5 +24,5 @@ public class Perguntas {
 	public void setResposta(String resposta) {
 		this.resposta = resposta;
 	}
-	
+
 }

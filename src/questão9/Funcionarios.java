@@ -2,8 +2,8 @@ package questão9;
 
 public class Funcionarios {
 
-	String nome;
-	double salario;
+	private String nome;
+	private double salario;
 
 	public Funcionarios(String nome, double salario) {
 		this.nome = nome;
@@ -29,10 +29,10 @@ public class Funcionarios {
 	public double getBonus() {
 		if (this.salario <= 1000) {
 			return this.salario * 0.2;
-		} else if(this.salario < 2000) {
+		} else if (this.salario < 2000) {
 			return this.salario * 0.1;
 		} else {
-			return -(this.salario * 0.1); 
+			return -(this.salario * 0.1);
 		}
 	}
 
